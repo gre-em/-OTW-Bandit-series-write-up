@@ -6,7 +6,7 @@ overthewire.org is an online platform with interactive games for learning securi
 To solve a level, we need to find the password for the next one on the game-server by connecting via a secure shell connection.
 
 ## What this write up is about
-This write up simply holds my personal solutions to the corresponding problems, and is simply for comparing solutions. If you plan on playing the game, solve the problems yourself first!
+This write up simply holds my personal solutions to the corresponding problems, and is simply for comparing solutions. If you plan on playing the game, you should solve the problems yourself first!
 
 
 
