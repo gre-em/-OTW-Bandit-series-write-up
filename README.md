@@ -19,10 +19,10 @@ To start the game, the first task is to connect to the server on port 2220 using
 
 ### Bandit 0 -> 1
 For the level one password, we simply need to read the file in the home folder.
-
-> $ ls
-> $ cat readme
-
+```
+$ ls
+$ cat readme
+```
 
 ### Bandit 1 -> 2
 The file we need to access is called "-".
