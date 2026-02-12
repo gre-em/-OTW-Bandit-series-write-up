@@ -1,6 +1,8 @@
 # [OTW] Bandit-series write up
 My solutions to the Bandit-series on the learning plattform overthewire.org.
 
+## Unfinished
+
 ## What the Bandit-series is
 overthewire.org is an online platform with interactive games for learning security concepts. The game "Bandit" is about bash-commands.
 To solve a level, we need to find the password for the next one on the game-server by connecting via a secure shell connection.
@@ -117,6 +119,13 @@ $ bzip2 -d data.bz2
 $ gzip -d data.gz
 $ tar -xf data.tar
 ...
+```
+<br/>
+
+### Bandit 13 -> 14
+We get a RSA private-key for the next level. As of now, connecting from localhost is blocked, so I needed to copy the key to my own system. (Our file needs to NOT be accessible by others, so security-permissions had to be changed.)
+```
+$ ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
 ```
 <br/>
 
